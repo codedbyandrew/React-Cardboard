@@ -1,0 +1,29 @@
+{
+  "name": "react-cardboad",
+  "version": "1.0.0",
+  "description": "React component for splitting the screen and duplicating each half.",
+  "main": "index.js",
+  "scripts": {
+    "test": "parcel ./test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedbyandrew/React-Cardboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codedbyandrew/React-Cardboard/issues"
+  },
+  "homepage": "https://github.com/codedbyandrew/React-Cardboard#readme",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
