@@ -3213,6 +3213,11 @@ invariant@^2.2.2:
   dependencies:
     loose-envify "^1.0.0"
 
+ionicons@^4.6.3:
+  version "4.6.3"
+  resolved "https://repo1.uhc.com/artifactory/api/npm/npm-virtual/ionicons/-/ionicons-4.6.3.tgz#e4f3a3e9b66761eb8c0db27798cc1a8ce97777d2"
+  integrity sha1-5POj6bZnYeuMDbJ3mMwajOl3d9I=
+
 is-absolute-url@^2.0.0:
   version "2.1.0"
   resolved "https://repo1.uhc.com/artifactory/api/npm/npm-virtual/is-absolute-url/-/is-absolute-url-2.1.0.tgz#50530dfb84fcc9aa7dbe7852e83a37b93b9f2aa6"
@@ -3982,6 +3987,11 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://repo1.uhc.com/artifactory/api/npm/npm-virtual/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
+
+nosleep.js@^0.9.0:
+  version "0.9.0"
+  resolved "https://repo1.uhc.com/artifactory/api/npm/npm-virtual/nosleep.js/-/nosleep.js-0.9.0.tgz#0f1371b81dc182e3b6bbdb837e880f16db9d7163"
+  integrity sha1-DxNxuB3BguO2u9uDfogPFtudcWM=
 
 npm-bundled@^1.0.1:
   version "1.0.6"

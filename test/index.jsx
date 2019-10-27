@@ -4,9 +4,12 @@ import { ReactCardboard } from "../index";
 
 const App = () => {
   return (
-    <ReactCardboard.VRContainer divider>
-      <h1>Test React Cardboard</h1>
-    </ReactCardboard.VRContainer>
+    <React.Fragment>
+      <ReactCardboard.FullScreenToggle />
+      <ReactCardboard.VRContainer divider>
+        <h1>Test React Cardboard</h1>
+      </ReactCardboard.VRContainer>
+    </React.Fragment>
   );
 };
 render(<App />, document.getElementById("app"));

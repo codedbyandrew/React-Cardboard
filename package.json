@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/codedbyandrew/React-Cardboard#readme",
   "dependencies": {
+    "ionicons": "^4.6.3",
+    "nosleep.js": "^0.9.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.0"
