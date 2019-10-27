@@ -6,7 +6,7 @@ const App = () => {
   return (
     <React.Fragment>
       <ReactCardboard.FullScreenToggle />
-      <ReactCardboard.VRContainer divider>
+      <ReactCardboard.VRContainer divider viewerWidth="600px">
         <h1>Test React Cardboard</h1>
       </ReactCardboard.VRContainer>
     </React.Fragment>

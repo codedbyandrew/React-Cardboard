@@ -4,10 +4,12 @@ import styled from "styled-components";
 const Wrapper = styled.section`
   display: flex;
   position: absolute;
+  width: ${props => (props.viewerWidth ? props.viewerWidth : "")};
   left: 0px;
   right: 0px;
   top: 0px;
   bottom: 0px;
+  margin: auto;
 `;
 
 const Divider = styled.div`
@@ -25,9 +27,9 @@ const Viewer = styled.div`
   overflow: hidden;
 `;
 
-export const VRContainer = ({ children, divider }) => {
+export const VRContainer = ({ children, divider, viewerWidth }) => {
   return (
-    <Wrapper>
+    <Wrapper viewerWidth={viewerWidth}>
       <Viewer>
         {React.cloneElement(children, {
           className: "left"
