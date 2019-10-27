@@ -4,7 +4,9 @@
   "description": "React component for splitting the screen and duplicating each half.",
   "main": "index.js",
   "scripts": {
-    "test": "parcel ./test/index.html"
+    "test": "parcel ./test/index.html",
+    "build": "yarn clean && parcel build ./test/index.html --out-dir demo",
+    "clean": "rm -rf demo"
   },
   "repository": {
     "type": "git",
