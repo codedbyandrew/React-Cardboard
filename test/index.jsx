@@ -1,10 +1,12 @@
 import React from "react";
 import { render } from "react-dom";
+import { ReactCardboard } from "../index";
+
 const App = () => {
   return (
-    <div>
+    <ReactCardboard.VRContainer>
       <h1>Test React Cardboard</h1>
-    </div>
+    </ReactCardboard.VRContainer>
   );
 };
 render(<App />, document.getElementById("app"));
