@@ -4,7 +4,7 @@ import { ReactCardboard } from "../index";
 
 const App = () => {
   return (
-    <ReactCardboard.VRContainer>
+    <ReactCardboard.VRContainer divider>
       <h1>Test React Cardboard</h1>
     </ReactCardboard.VRContainer>
   );
