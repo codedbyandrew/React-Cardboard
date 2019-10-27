@@ -1,2 +1,2 @@
-import * as ReactCardboard from "./src/index.jsx";
+import * as ReactCardboard from "./src/index";
 export { ReactCardboard };
