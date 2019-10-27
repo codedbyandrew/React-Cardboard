@@ -2,6 +2,8 @@
 
 React component for splitting the screen and duplicating each half.
 
+[Demo](https://codedbyandrew.github.io/React-Cardboard/demo/index.html)
+
 ## Components
 
 #### <ReactCardboard.FullScreenToggle>
